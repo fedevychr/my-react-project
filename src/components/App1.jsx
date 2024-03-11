@@ -1,6 +1,6 @@
 // src/components/App1.jsx
 
-import { BookList }  from "./BookList";
+import BookList  from "./BookList";
 
 const favouriteBooks = [
   { id: "id-1", name: "JS for beginners" },

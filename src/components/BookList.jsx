@@ -1,6 +1,6 @@
 // src/components/BookList.jsx
 
-export const BookList = ({ books }) => {
+const BookList = ({ books }) => {
   return (
     <ul>
       {books.map((book) => {
@@ -10,10 +10,12 @@ export const BookList = ({ books }) => {
   );
 };
 
-// export const BookList = ({ books }) => (
+// const BookList = ({ books }) => (
 //   <ul>
 // 		{books.map((book, index) => {
 // 			return <li key={index}>{book.name}</li>;
 // 		})}
 //   </ul>
 // );
+
+export default BookList;
