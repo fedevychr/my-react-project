@@ -1,6 +1,10 @@
 /* src/components/Alert.module.css */
 
-.alert {
+.alert,
+.info,
+.success,
+.error,
+.warning {
     margin: 8px;
     padding: 12px 16px;
     border-radius: 4px;
@@ -9,22 +13,22 @@
 }
 
 .info {
-    composes: alert;
+    /* composes: alert; */
     background-color: blue;
 }
 
 .success {
-    composes: alert;
+    /* composes: alert; */
     background-color: green;
 }
 
 .error {
-    composes: alert;
+    /* composes: alert; */
     background-color: red;
 }
 
 .warning {
-    composes: alert;
+    /* composes: alert; */
     background-color: orange;
 }
 
