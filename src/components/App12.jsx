@@ -1,6 +1,6 @@
 // src/components/App12.jsx
 
-import Alert from "./Alert";
+import Alert from './Alert/Alert';
 
 const App12 = () => {
   return (
@@ -22,6 +22,3 @@ const App12 = () => {
 };
 
 export default App12;
-
-
-
