@@ -7,7 +7,8 @@ import ReactDOM from 'react-dom/client';
 // import App22 from './components/App22';
 // import App31 from './components/App31';
 // import App311 from './components/App311';
-import App32 from './components/App32';
+// import App32 from './components/App32';
+import App41 from './components/App41';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <App22 /> */}
     {/* <App31 /> */}
     {/* <App311 /> */}
-    <App32 />
+    {/* <App32 /> */}
+    <App41 />
   </React.StrictMode>,
 );
